@@ -1,0 +1,26 @@
+{
+  "name": "file_uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDimovska/File_Uploader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDimovska/File_Uploader/issues"
+  },
+  "homepage": "https://github.com/DDimovska/File_Uploader#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "fileapi": "^2.0.25",
+    "jquery": "^3.3.1",
+    "js-sha256": "^0.9.0",
+    "web3": "github:ethereum/web3.js"
+  }
+}
