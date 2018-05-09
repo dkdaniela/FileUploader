@@ -27,6 +27,7 @@ function fileHash(file, hasher, smartContractInteractor) {
 }
 
 
+
 // Encrypt uploaded file and send to another address
 document.getElementById('button-send').addEventListener('click', fileEncryptEventHandler, false);
 
@@ -40,7 +41,12 @@ function fileEncryptEventHandler(evt) {
         // Receiving address
         var receiver = web3.eth.accounts[1];
 
-        FileUploader.sendEncryptedFile(receiver, resultEncryptedFile.toString());
+        FileUploader.sendEncryptedFile(receiver.toString(), resultEncryptedFile.toString());
+
+        // Change default to call getEncryptedFile function
+        web3.eth.defaultAccount = web3.eth.accounts[1];
+
+        console.log('Encrypted file: ' +  FileUploader.getEncryptedFile());
 
     });
 }
@@ -56,4 +62,19 @@ function fileEncrypt(file, smartContractInteractor) {
     };
 
     reader.readAsBinaryString(file);
+}
+
+
+
+// Decrypt and download file
+document.getElementById('button-download').addEventListener('click', fileDecrypt, false);
+
+function fileDecrypt() {
+
+    web3.eth.defaultAccount = web3.eth.accounts[1];
+
+    var decryptedFile = CryptoJS.AES.decrypt(FileUploader.getEncryptedFile(), 'SB96$5$Z~bWR*w)').toString(CryptoJS.enc.Utf8);
+
+    document.getElementById('button-download').setAttribute('href', 'data:application/txt;aes,' + decryptedFile);
+
 }
