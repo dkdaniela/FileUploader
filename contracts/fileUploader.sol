@@ -9,7 +9,7 @@ contract FileUploaderContract {
     // Set the file hash
     function setHash(string _hash) public {
 
-        if(!(bytes(hash).length > 0)){
+        if(!(bytes(hash).length > 0)) {
             hash = _hash;
         } else {
             return;
