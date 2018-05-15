@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="460f2c0f-a6fa-4628-a1b7-d0700450f264" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/fileUploader.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/fileUploader.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/utf8/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/utf8/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/node_modules/crypto-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/node_modules/crypto-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/web3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/web3/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xhr2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xhr2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlhttprequest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlhttprequest/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/web3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/db_connection.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,15 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#small#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#small#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="617">
+              <caret line="75" column="11" lean-forward="true" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -53,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_connection.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db_connection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_connection.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -98,7 +80,6 @@
         <option value="$PROJECT_DIR$/contracts/fileUploader.sol" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/db_connection.php" />
         <option value="$PROJECT_DIR$/src/css/main.css" />
         <option value="$PROJECT_DIR$/encryption.php" />
         <option value="$PROJECT_DIR$/helpers.php" />
@@ -107,6 +88,7 @@
         <option value="$PROJECT_DIR$/upload.php" />
         <option value="$PROJECT_DIR$/download.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/db_connection.php" />
       </list>
     </option>
   </component>
@@ -126,7 +108,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
     <option name="width" value="1440" />
     <option name="height" value="828" />
@@ -139,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,10 +128,22 @@
               <item name="File_Uploader" type="b2602c69:ProjectViewProjectNode" />
               <item name="File_Uploader" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="File_Uploader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="File_Uploader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="File_Uploader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="File_Uploader" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,15 +186,16 @@
       <workItem from="1525935453464" duration="52000" />
       <workItem from="1525938561520" duration="5004000" />
       <workItem from="1526022901851" duration="17733000" />
-      <workItem from="1526236110949" duration="24613000" />
+      <workItem from="1526236110949" duration="25591000" />
+      <workItem from="1526373888429" duration="241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68148000" />
+    <option name="totallyTimeSpent" value="69367000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1440" height="828" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="828" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -214,7 +208,6 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24861111" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -224,6 +217,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,32 +239,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="n#style#0;n#small#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#small#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/web3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/src/js/web3.js" />
     <entry file="file://$PROJECT_DIR$/contracts/fileUploader.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -288,13 +284,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -302,30 +292,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/web3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/src/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/web3.js" />
     <entry file="file://$PROJECT_DIR$/contracts/fileUploader.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -340,27 +309,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/web3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/src/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/web3.js" />
     <entry file="file://$PROJECT_DIR$/contracts/fileUploader.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -375,27 +326,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/web3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/src/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/web3.js" />
     <entry file="file://$PROJECT_DIR$/contracts/fileUploader.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -404,84 +337,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/md5/md5.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json" />
+    <entry file="file://$PROJECT_DIR$/uploads/test.txt" />
+    <entry file="file://$PROJECT_DIR$/src/js/upload.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/js-sha256/src/sha256.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-733">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-733" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/web3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers.php" />
+    <entry file="file://$PROJECT_DIR$/src/js/web3.js" />
+    <entry file="file://$PROJECT_DIR$/src/css/main.css" />
     <entry file="file://$PROJECT_DIR$/contracts/fileUploader.sol">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -502,17 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#small#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#small#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/download.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -520,10 +379,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db_connection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="75" column="11" lean-forward="true" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
         </state>
       </provider>
     </entry>
